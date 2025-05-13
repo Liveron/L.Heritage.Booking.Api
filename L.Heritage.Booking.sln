@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L.Heritage.Booking.Infrastr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L.Heritage.Booking.Api", "L.Heritage.Booking.Api\L.Heritage.Booking.Api.csproj", "{8616AA5E-E2F0-45AC-AC3F-98228BB8D845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{26B5597B-C974-46DB-A3AB-8EAD3792EE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26B5597B-C974-46DB-A3AB-8EAD3792EE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26B5597B-C974-46DB-A3AB-8EAD3792EE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8616AA5E-E2F0-45AC-AC3F-98228BB8D845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8616AA5E-E2F0-45AC-AC3F-98228BB8D845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8616AA5E-E2F0-45AC-AC3F-98228BB8D845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8616AA5E-E2F0-45AC-AC3F-98228BB8D845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{738CFF56-62BC-454E-9A54-FFF20985F559} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{26B5597B-C974-46DB-A3AB-8EAD3792EE9F} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{8616AA5E-E2F0-45AC-AC3F-98228BB8D845} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {986849BA-BFE2-4DB6-96EF-AAD5D3528652}

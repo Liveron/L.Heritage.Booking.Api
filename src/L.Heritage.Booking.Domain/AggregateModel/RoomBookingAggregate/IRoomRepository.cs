@@ -2,5 +2,5 @@
 
 public interface IRoomRepository
 {
-    public Task<BookingItem> GetById(long roomId);
+    public Task<Room> GetById(long roomId);
 }

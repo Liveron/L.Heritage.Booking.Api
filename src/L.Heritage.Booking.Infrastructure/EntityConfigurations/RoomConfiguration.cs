@@ -16,7 +16,7 @@ class RoomBookingTypeConfiguration : IEntityTypeConfiguration<RoomBooking>
             .HasForeignKey(rb => rb.CustomerId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        roomBookingConfiguration.HasOne<BookingItem>()
+        roomBookingConfiguration.HasOne<Room>()
             .WithMany()
             .HasForeignKey(rb => rb.RoomId)
             .OnDelete(DeleteBehavior.Restrict);

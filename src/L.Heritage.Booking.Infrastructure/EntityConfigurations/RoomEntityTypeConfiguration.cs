@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace L.Heritage.Booking.Infrastructure.EntityConfigurations;
 
-class RoomEntityTypeConfiguration : IEntityTypeConfiguration<BookingItem>
+class RoomEntityTypeConfiguration : IEntityTypeConfiguration<Room>
 {
-    public void Configure(EntityTypeBuilder<BookingItem> roomConfiguration)
+    public void Configure(EntityTypeBuilder<Room> roomConfiguration)
     {
         roomConfiguration.ToTable("room");
 
